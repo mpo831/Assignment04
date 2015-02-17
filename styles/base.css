@@ -1,0 +1,36 @@
+/* This is my CSS stylesheet for Assignment 4 */
+
+/* I want all the text in the body to use the Cabin font */
+body {
+	font-family: Cabin, sans-serif;
+}
+
+button {
+	background-color: #0099FF;
+	padding: 15px;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*This is my styling for the input boxes and their corresponding labels*/
+div .inputBox {
+	background-color: gray;
+	color: white;
+	text-align: center;
+	margin: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Giving each input a little padding*/
+input {
+	padding-top: 5px;
+}
+
+/* Increasing the size of the header*/
+h1 {
+	font-size: 50px;
+}

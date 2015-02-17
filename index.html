@@ -1,0 +1,50 @@
+<!-- This is my index page for assignemnt 4 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- not sure what I should have used for title, but I figure assignment 4 works -->
+	<title>Assignment 4</title>
+	<!--link to CSS page and the Google font Cabin-->
+	<link rel="stylesheet" type="text/css" href="styles/base.css">
+	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		<!--I wanted to use a button to call my function instead of calling it through the JavaScript file itself -->
+		<button onclick="populate()" class="btn btn-info active">Populate With Data</button>
+		
+		<!--I am putting each input in a div and giving each a class of "inputBox, which should help with styling through CSS-->
+		<div class="inputBox">
+			<label for="first_name">First Name</label> </br>
+			<input type="text" id="first_name">
+		</div>
+		
+		<div class="inputBox">
+			<label for="last_name">Last Name</label> </br>
+			<input type="text" id="last_name"> 
+		</div>
+		
+		<div class="inputBox">
+			<label for="age">Age</label> </br>
+			<input type="number" id="age"> 
+		</div>
+
+		<div class="inputBox">
+			<label for="future_age">Future Age</label> </br>
+			<input type="number" id="future_age"> 
+		</div>
+		
+		<div class="inputBox">
+			<label for="family_members">Family Members</label> </br>
+			<input type="text" id="family_members"> 
+		</div>
+		
+		<div class="inputBox">
+			<label for="special_message">Special Message</label> </br>
+			<input type="text" id="special_message"> 
+		</div>
+	</div>
+	<!--Link to my JavaScript page here-->
+	<script src="js/script.js"></script>
+</body>
+</html>
